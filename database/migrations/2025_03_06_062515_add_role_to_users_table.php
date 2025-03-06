@@ -15,7 +15,6 @@ return new class extends Migration
             $table->string('role')->default('user');
         });
     }
-
     /**
      * Reverse the migrations.
      */
